@@ -1,0 +1,100 @@
+[
+  {
+    "bookSourceComment": "",
+    "bookSourceName": "🍁起点中文网🍁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qidian.com",
+    "customOrder": 1,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "月票排行榜::<js>java.put(\"listurl\",\"yuepiaolist\");java.put(\"page\",page);</js>\n推荐排行榜::<js>java.put(\"listurl\",\"reclist\");java.put(\"page\",page);</js>\n阅读排行榜::<js>java.put(\"listurl\",\"readindexlist\");java.put(\"page\",page);</js>\n❀                          分      类                         ❀\n玄幻::<js>java.put(\"classifys\",\"catId=21\");java.put(\"page\",page);</js>\n奇幻::<js>java.put(\"classifys\",\"catId=1\");java.put(\"page\",page);</js>\n武侠::<js>java.put(\"classifys\",\"catId=2\");java.put(\"page\",page);</js>\n仙侠::<js>java.put(\"classifys\",\"catId=22\");java.put(\"page\",page);</js>\n都市::<js>java.put(\"classifys\",\"catId=4\");java.put(\"page\",page);</js>\n悬疑::<js>java.put(\"classifys\",\"catId=10\");java.put(\"page\",page);</js>\n科幻::<js>java.put(\"classifys\",\"catId=9\");java.put(\"page\",page);</js>\n诸天::<js>java.put(\"classifys\",\"catId=20109\");java.put(\"page\",page);</js>\n游戏::<js>java.put(\"classifys\",\"catId=7\");java.put(\"page\",page);</js>\n历史::<js>java.put(\"classifys\",\"catId=5\");java.put(\"page\",page);</js>\n❀                          完本专区                        ❀\n玄幻::<js>java.put(\"classify\",\"catId=21\");java.put(\"page\",page);</js>\n奇幻::<js>java.put(\"classify\",\"catId=1\");java.put(\"page\",page);</js>\n武侠::<js>java.put(\"classify\",\"catId=2\");java.put(\"page\",page);</js>\n仙侠::<js>java.put(\"classify\",\"catId=22\");java.put(\"page\",page);</js>\n都市::<js>java.put(\"classify\",\"catId=4\");java.put(\"page\",page);</js>\n悬疑::<js>java.put(\"classify\",\"catId=10\");java.put(\"page\",page);</js>\n科幻::<js>java.put(\"classify\",\"catId=9\");java.put(\"page\",page);</js>\n诸天::<js>java.put(\"classify\",\"catId=20109\");java.put(\"page\",page);</js>\n游戏::<js>java.put(\"classify\",\"catId=7\");java.put(\"page\",page);</js>\n经典::<js>java.put(\"all\",\"all\");java.put(\"page\",page);</js>",
+    "lastUpdateTime": 1647778619389,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "init": ""
+    },
+    "ruleContent": {
+      "content": "class.read-content j_readContent@tag.p@html"
+    },
+    "ruleExplore": {
+      "author": "$.[2]",
+      "bookList": "<js>\n//处理数据\nvar riqi=(new Date()).toISOString();\nvar riqiformat=riqi.match(/(\\d\\d\\d\\d)/)[1]+riqi.match(/\\d\\d\\d\\d-(\\d\\d)-\\d\\d/)[1];\nvar headers = {\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36\"};\n//获取上一级数据\nvar listurl = java.get(\"listurl\");\nvar page = java.get(\"page\");\nvar classify = java.get(\"classify\");\nvar classifys = java.get(\"classifys\");\nvar all = java.get(\"all\");\njava.log(classify);\n//发送请求获取_csrfToken\nvar url_rank = \"https://m.qidian.com/rank/\";\nvar res = java.get(url_rank,headers);\nvar res_headers = String(res.headers());\nvar token = res_headers.match(/(_csrfToken.*?)\\;/)[1];\n//分类区\nif(listurl==\"\"){\n\tif(classify==\"\"){\n\t\tif(all !=\"\"){\n\t\t\tclassify_url =\"https://m.qidian.com/majax/recommend/classiclist?_csrfToken\"+token+\"&gender=male&pageNum=\"+page;\n\t\t\t}else{\n\tclassify_url =\"https://m.qidian.com/majax/category/list?_csrfToken=\"+token+\"&gender=male&pageNum=\"+page+\"&orderBy=&\"+classifys+\"&subCatId=\";\n\t}\n\t}else{\n\tclassify_url =\"https://m.qidian.com/majax/category/list?_csrfToken=\"+token+\"&gender=male&pageNum=\"+page+\"&orderBy=&\"+classify+\"&subCatId=&isfinish=1\";\n\t}\n\t\n\tvar res_list=String(java.get(classify_url,headers).body());\njsonList =JSON.parse(res_list);\nvar blist = [];\nfor(var i=0;i<jsonList.data.records.length;i++){\nvar alist =[];\nvar llist =[];\nnum=(Number(page)-1)*20+i+1;\nllist.push(\"第\"+num+\"名\");\n llist.push(jsonList.data.records[i].cat);\n llist.push(jsonList.data.records[i].state);\n if(jsonList.data.records[i].rankCnt!=null){\n llist.push(jsonList.data.records[i].rankCnt);\n }\n llist.push(jsonList.data.records[i].cnt);\n\talist.push(jsonList.data.records[i].bid);\n\talist.push(jsonList.data.records[i].bName);\n\talist.push(jsonList.data.records[i].bAuth);\n\talist.push(jsonList.data.records[i].desc);\nalist.push(llist);\talist.push(\"https://bookcover.yuewen.com/qdbimg/349573/\"+jsonList.data.records[i].bid+\"/150\");\nalist.push(\"https://book.qidian.com/info/\"+jsonList.data.records[i].bid);\n\tblist.push(alist);\n\t}\n\tblist\n\t//排行榜区\n\t}else{\nlist_url =\"https://m.qidian.com/majax/rank/\"+listurl+\"?\"+token+\"&gender=male&pageNum=\"+page+\"&catId=-1&yearmonth=\"+riqiformat;\n\nvar res_list=String(java.get(list_url,headers).body());\njsonList =JSON.parse(res_list);\n\nvar blist = [];\n\nfor(var i=0;i<jsonList.data.records.length;i++){\nvar alist =[];\nvar llist =[];\nllist.push(\"第\"+jsonList.data.records[i].rankNum+\"名\");\n llist.push(jsonList.data.records[i].cat);\n llist.push(jsonList.data.records[i].subCat);\n if(jsonList.data.records[i].rankCnt!=null){\n llist.push(jsonList.data.records[i].rankCnt);\n }\n llist.push(jsonList.data.records[i].cnt);\n\talist.push(jsonList.data.records[i].bid);\n\talist.push(jsonList.data.records[i].bName);\n\talist.push(jsonList.data.records[i].bAuth);\n\talist.push(jsonList.data.records[i].desc);\nalist.push(llist);\talist.push(\"https://bookcover.yuewen.com/qdbimg/349573/\"+jsonList.data.records[i].bid+\"/150\");\nalist.push(\"https://book.qidian.com/info/\"+jsonList.data.records[i].bid);\n\tblist.push(alist);\n\t}\n\tblist\n\t}\n</js>",
+      "bookUrl": "$.[6]",
+      "coverUrl": "$.[5]",
+      "intro": "$.[3]",
+      "kind": "$.[4]",
+      "name": "$.[1]",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.book-author@text",
+      "bookList": "class.book-li",
+      "bookUrl": "class.book-layout@href##m.qidian.com/book/(\\d.*?).html##book.qidian.com/info/$1",
+      "coverUrl": "class.book-layout@href##m.qidian.com/book/(\\d.*?).html##bookcover.yuewen.com/qdbimg/349573/$1/150",
+      "intro": "class.book-desc@text",
+      "kind": "class.book-meta-r@tag.span@tag.em@text\n@js:\nvar list = [];\nlist.push(\"起点中文网\");\nlist.push(result[0]);\nlist.push(result[1]);\nlist.push(result[2]);\nlist",
+      "name": "class.book-title-x@tag.h2@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.volume@class.cf@tag.li",
+      "chapterName": "class.iconfont @text&&tag.li@class.book_name@text####🔒",
+      "chapterUrl": "tag.li@class.book_name@tag.a@href"
+    },
+    "searchUrl": "https://m.qidian.com/soushu/{{key}}.html",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceName": "🍁笔趣阁🍁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.bige7.com/",
+    "customOrder": 2,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1647778726794,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "class.dd_box.0@span.0@text",
+      "coverUrl": "class.cover@tag.img@src",
+      "init": "",
+      "intro": "class.book_about@dl@dd@text",
+      "kind": "class.dd_box.0@span.1@text##分类：",
+      "lastChapter": "class.book_last@dl@dd.0@text",
+      "name": "class.name@text",
+      "tocUrl": "class.book_more@tag.a@href||class.book-layout@tag.img@src##//bookcover.yuewen.com/qdbimg/349573/(.*?)/300##https://m.qidian.com/book/$1/catalog/",
+      "wordCount": "class.dd_box.1@span.1@text##字数："
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes",
+      "nextContentUrl": "class.Readpage_down@href"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.item@tag.dl@tag.dt@tag.span@text",
+      "bookList": "class.item",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.item@tag.dl@tag.dd@text",
+      "kind": "<js>\nvar list = [];\nlist.push(\"笔趣阁\");\nlist\n</js>",
+      "name": "class.item@tag.dl@tag.dt@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.book_last@dl@dd!0||class.chapter-li jsChapter",
+      "chapterName": "tag.a@text||class.chapter-index@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.bige7.com/s?q={{key}}",
+    "weight": 0
+  }
+]
