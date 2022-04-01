@@ -53,7 +53,7 @@
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "[{\"title\":\"月票排行榜\",\"url\":\"<js>java.put(\\\"kind\\\",1);'http://www.zongheng.com/rank/details.html?rt=1&d=1&p={{page}}'</js>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"推荐排行榜\",\"url\":\"<js>java.put(\\\"kind\\\",1);'http://www.zongheng.com/rank/details.html?rt=6&d=1&r=&i=2&c=0&p={{page}}'</js>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"点击排行榜\",\"url\":\"<js>java.put(\\\"kind\\\",1);'http://www.zongheng.com/rank/details.html?rt=5&d=1&r=&i=2&c=0&p={{page}}'</js>\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"❀                          分      类                         ❀\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"<js>java.put(\\\"kind\\\",2);'http://book.zongheng.com/store/c1/c0/b0/u6/p{{page}}/v9/s9/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"<js>java.put(\\\"kind\\\",2);'http://book.zongheng.com/store/c3/c0/b0/u6/p{{page}}/v9/s9/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"<js>java.put(\\\"kind\\\",2);'http://book.zongheng.com/store/c6/c0/b0/u6/p{{page}}/v9/s9/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"<js>java.put(\\\"kind\\\",2);'http://book.zongheng.com/store/c9/c0/b0/u6/p{{page}}/v9/s9/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"<js>java.put(\\\"kind\\\",2);'http://book.zongheng.com/store/c15/c0/b0/u6/p{{page}}/v9/s9/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"<js>java.put(\\\"kind\\\",2);'http://book.zongheng.com/store/c18/c0/b0/u6/p{{page}}/v9/s9/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"同人\",\"url\":\"<js>java.put(\\\"kind\\\",2);'http://book.zongheng.com/store/c21/c0/b0/u6/p{{page}}/v9/s9/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"二次元\",\"url\":\"<js>java.put(\\\"kind\\\",2);'http://book.zongheng.com/store/c40/c0/b0/u6/p{{page}}/v9/s9/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"❀                          完本专区                        ❀\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻\",\"url\":\"<js>java.put(\\\"kind\\\",3);'http://book.zongheng.com/store/c1/c0/b0/u1/p{{page}}/v9/s1/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"武侠\",\"url\":\"<js>java.put(\\\"kind\\\",3);'http://book.zongheng.com/store/c3/c0/b0/u1/p{{page}}/v9/s1/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"历史\",\"url\":\"<js>java.put(\\\"kind\\\",3);'http://book.zongheng.com/store/c6/c0/b0/u1/p{{page}}/v9/s1/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"都市\",\"url\":\"<js>java.put(\\\"kind\\\",3);'http://book.zongheng.com/store/c9/c0/b0/u1/p{{page}}/v9/s1/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"科幻\",\"url\":\"<js>java.put(\\\"kind\\\",3);'http://book.zongheng.com/store/c15/c0/b0/u1/p{{page}}/v9/s1/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"悬疑\",\"url\":\"<js>java.put(\\\"kind\\\",3);'http://book.zongheng.com/store/c18/c0/b0/u1/p{{page}}/v9/s1/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"同人\",\"url\":\"<js>java.put(\\\"kind\\\",3);'http://book.zongheng.com/store/c21/c0/b0/u1/p{{page}}/v9/s1/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"二次元\",\"url\":\"<js>java.put(\\\"kind\\\",3);'http://book.zongheng.com/store/c40/c0/b0/u1/p{{page}}/v9/s1/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}},\n{\"title\":\"🍒经               典🍒\",\"url\":\"<js>java.put(\\\"kind\\\",3);'http://book.zongheng.com/store/c0/c0/b0/u1/p{{page}}/v9/s1/t0/u0/i1/ALL.html'</js>\n\",\"style\":{\"layout_flexBasisPercent\":0.2,\"layout_flexGrow\":1}}\n]",
-    "lastUpdateTime": 1648780374839,
+    "lastUpdateTime": 1648784517915,
     "respondTime": 180000,
     "ruleBookInfo": {
       "init": "",
@@ -64,7 +64,7 @@
       "content": "class.content@tag.p@textNodes"
     },
     "ruleExplore": {
-      "author": "class.rank_d_b_cate@tag.a.0@text||class.bookilnk@tag.a.0@text",
+      "author": "class.rank_d_b_cate@tag.a.0@text||class.bookilnk@tag.a.0@text##$## -纵横中文网",
       "bookList": "class.rank_d_list borderB_c_dsh clearfix||class.bookbox fl",
       "bookUrl": "class.rank_d_book_img fl@tag.a@href||class.bookimg@tag.a@href",
       "coverUrl": "class.rank_d_book_img fl@tag.a@tag.img@src||class.bookimg@tag.a@tag.img@src",
@@ -156,7 +156,7 @@
     "enabledExplore": true,
     "exploreUrl": "",
     "header": "{\n    'User-Agent': ''\n}",
-    "lastUpdateTime": 1648704990228,
+    "lastUpdateTime": 1648785530210,
     "respondTime": 1221,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
@@ -193,7 +193,7 @@
     },
     "ruleToc": {
       "chapterList": "#chapterlist p!0@a",
-      "chapterName": "text##[\\(（【].*?[求更谢乐发订合补加].*?[】）\\)]",
+      "chapterName": "text",
       "chapterUrl": "href"
     },
     "searchUrl": "/xiaoshuosousuo/jieguo.html?searchkey={{key}}",
