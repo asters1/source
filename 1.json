@@ -100,13 +100,14 @@
     "customOrder": 0,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1650032958541,
+    "lastUpdateTime": 1651787590250,
     "respondTime": 180000,
     "ruleBookInfo": {
       "init": ""
     },
     "ruleContent": {
-      "content": "id.content1@textNodes"
+      "content": "id.content1@textNodes",
+      "replaceRegex": "##（未完待续）##"
     },
     "ruleExplore": {
       "bookList": ""
@@ -115,7 +116,7 @@
       "author": "class.odd.1@text##$##  -奇书网",
       "bookList": "tag.tbody@tag.tr\n@js:\nvar list = [];\nfor(var i=1;i<result.length;i++){\n\tlist.push(result[i]);\n}\nlist",
       "bookUrl": "class.even@tag.a@href##Shtml(.*?)\\.html##$1\n@js:\nvar a=result.match(/\\/(.*)/)[1];\nvar b=a.substr(0,2);\nvar c=\"https://www.kankezw.com/du/\"+b+\"/\"+a+\"/\";\nc",
-      "coverUrl": "class.even@tag.a@href##Shtml(.*?)\\.html##$1\n@js:\nvar a=result.match(/\\/(.*)/)[1];\nvar b=a.substr(0,2);\nvar c=\"https://www.kankezw.com/files/article/image/\"+b+\"/\"+a+\"/\"+a+\"s.jpg\"\nc",
+      "coverUrl": "class.even@tag.a@href##Shtml(.*?)\\.html##$1\n@js:\nvar a=result.match(/\\/(.*)/)[1];\nif(a<100000){\nvar b=a.substr(0,2);\n}else if(a<1000000&&a>99999){\nvar b=a.substr(0,3);\n}\nvar c=\"https://www.kankezw.com/files/article/image/\"+b+\"/\"+a+\"/\"+a+\"s.jpg\"\nc",
       "kind": "<js>\nvar list = [];\nlist.push(\"奇书网\");\nlist\n</js>",
       "lastChapter": "class.odd@tag.a@text",
       "name": "class.even@tag.a@text"
