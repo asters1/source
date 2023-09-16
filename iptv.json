@@ -1,0 +1,948 @@
+{
+  "spider": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/jar/sp.jar",
+  "lives": [
+    {
+      "group": "redirect",
+      "channels": [
+        {
+          "name": "live",
+          "urls": [
+            "proxy://do=live&type=txt&ext=aHR0cHM6Ly93aXN0ZXJpYS5jZi9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FzdGVyczEvc291cmNlL21hc3Rlci90dmJveC9pcHR2LnR4dA"
+          ]
+        }
+      ]
+    }
+  ],
+  "wallpaper": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/paper/6.jpg",
+  "sites": [
+    {
+      "key": "77",
+      "name": "🍁77(SP)",
+      "type": 3,
+      "api": "csp_Kunyu77",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Coke",
+      "name": "🍀Cokemv(SP)",
+      "type": 3,
+      "api": "csp_Cokemv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Lib",
+      "name": "🍁Libvio(SP)",
+      "type": 3,
+      "api": "csp_Lib",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Lezhu",
+      "name": "🍀乐猪(SP)",
+      "api": "csp_Lezhu",
+      "type": 3,
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1
+    },
+    {
+      "key": "神马影院",
+      "name": "🍁神马(SP)",
+      "type": 3,
+      "api": "csp_Smdyy",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "剧荒",
+      "name": "🍀剧荒(SP)",
+      "type": 3,
+      "api": "csp_Juhuang",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "看视界",
+      "name": "🍁看视界(SP)",
+      "type": 3,
+      "api": "csp_KanSJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "厂长",
+      "name": "🍀厂长(SP)",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "追剧喵",
+      "name": "🍁追剧喵(SP)",
+      "type": 3,
+      "api": "csp_ZJMiao",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Bttoo",
+      "name": "🍀Bttoo(SP)",
+      "api": "csp_Bttoo",
+      "type": 3,
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1
+    },
+    {
+      "key": "Kuaikan",
+      "name": "🍁快看(SP)",
+      "type": 3,
+      "api": "csp_Kuaikan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "爱看",
+      "name": "🍀爱看(SP)",
+      "type": 3,
+      "api": "csp_IKan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "555",
+      "name": "🍁555(SP)",
+      "type": 3,
+      "api": "csp_Dy555",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "日漫",
+      "name": "🍀日漫(SP)",
+      "type": 3,
+      "api": "csp_Anime1",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "xxxxxxx",
+      "name": "==================",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": ""
+    },
+    {
+      "key": "蓝光影院",
+      "name": "🍁蓝光影院(XB)",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/蓝光影院.json"
+    },
+    {
+      "key": "瓜皮TV",
+      "name": "🍀瓜皮TV(XB)",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/蓝光影院.json"
+    },
+    {
+      "name": "🍁厂长资源-蓝光(XB)",
+      "key": "厂长资源-蓝光",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/厂长资源-蓝光.json"
+    },
+    {
+      "name": "🍀在线之家(XB)",
+      "key": "在线之家",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/在线之家.json"
+    },
+    {
+      "name": "🍁LIBVIO(XB)",
+      "key": "LIBVIO",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/LIBVIO.json"
+    },
+    {
+      "name": "🍀COKEMV(XB)",
+      "key": "COKEMV",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/COKEMV.json"
+    },
+    {
+      "name": "🍁影视工厂(XB)",
+      "key": "影视工厂",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/影视工厂.json"
+    },
+    {
+      "name": "🍀555电影(XB)",
+      "key": "555电影",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/555电影.json"
+    },
+    {
+      "name": "🍁特狗影视(XB)",
+      "key": "特狗影视",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/特狗影视.json"
+    },
+    {
+      "name": "🍀4K电影网(XB)",
+      "key": "4K电影网",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/4K电影网.json"
+    },
+    {
+      "name": "🍁大米星球(XB)",
+      "key": "大米星球",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/大米星球.json"
+    },
+    {
+      "name": "🍀干饭影视(XB)",
+      "key": "干饭影视",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/干饭影视.json"
+    },
+    {
+      "name": "🍁去看吧(XB)",
+      "key": "去看吧",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/去看吧.json"
+    },
+    {
+      "name": "🍀风车动漫(XB)",
+      "key": "风车动漫",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/风车动漫.json"
+    },
+    {
+      "name": "🍁维奇动漫(XB)",
+      "key": "维奇动漫",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/维奇动漫.json"
+    },
+    {
+      "name": "🍀剧白白-蓝光(XB)",
+      "key": "剧白白-蓝光",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/剧白白-蓝光.json"
+    },
+    {
+      "name": "🍁鸭奈飞(XB)",
+      "key": "鸭奈飞",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/鸭奈飞.json"
+    },
+    {
+      "name": "🍀小强迷(XB)",
+      "key": "小强迷",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/小强迷.json"
+    },
+    {
+      "name": "🍁chok8电影(XB)",
+      "key": "chok8电影",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/chok8电影.json"
+    },
+    {
+      "name": "🍀乐猪影视(XB)",
+      "key": "乐猪影视",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/乐猪影视.json"
+    },
+    {
+      "name": "🍁口袋影院(XB)",
+      "key": "口袋影院",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/口袋影院.json"
+    },
+    {
+      "name": "🍀北川影视(XB)",
+      "key": "北川影视",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/北川影视.json"
+    },
+    {
+      "name": "🍁六度TV(XB)",
+      "key": "六度TV",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/六度TV.json"
+    },
+    {
+      "name": "🍀骚火电影(XB)",
+      "key": "骚火电影",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/骚火电影.json"
+    },
+    {
+      "name": "🍁YYDS影院(XB)",
+      "key": "YYDS影院",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/YYDS影院.json"
+    },
+    {
+      "name": "🍀如如影视(XB)",
+      "key": "如如影视",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/如如影视.json"
+    },
+    {
+      "name": "🍁神马接口(XB)",
+      "key": "神马接口",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/神马接口.json"
+    },
+    {
+      "name": "🍀GimyTV(XB)",
+      "key": "GimyTV",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/GimyTV.json"
+    },
+    {
+      "name": "🍁花猫TV(XB)",
+      "key": "花猫TV",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/花猫TV.json"
+    },
+    {
+      "name": "🍀1080Kkk(XB)",
+      "key": "1080Kkk",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/1080Kkk.json"
+    },
+    {
+      "name": "🍁爱港剧(XB)",
+      "key": "爱港剧",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/爱港剧.json"
+    },
+    {
+      "name": "🍀VIP1280(XB)",
+      "key": "VIP1280",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/VIP1280.json"
+    },
+    {
+      "name": "🍁影视之光(XB)",
+      "key": "影视之光",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/影视之光.json"
+    },
+    {
+      "name": "🍀手机看剧(XB)",
+      "key": "手机看剧",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/手机看剧.json"
+    },
+    {
+      "name": "🍁创艺影视(XB)",
+      "key": "创艺影视",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/创艺影视.json"
+    },
+    {
+      "name": "🍀利丽娅电影(XB)",
+      "key": "利丽娅电影",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/利丽娅电影.json"
+    },
+    {
+      "name": "🍁大象TV(XB)",
+      "key": "大象TV",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/大象TV.json"
+    },
+    {
+      "name": "🍀4kan电影网(XB)",
+      "key": "4kan电影网",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/4kan电影网.json"
+    },
+    {
+      "name": "🍁蓝莓影视(XB)",
+      "key": "蓝莓影视",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/蓝莓影视.json"
+    },
+    {
+      "name": "🍀牛马TV(XB)",
+      "key": "牛马TV",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/牛马TV.json"
+    },
+    {
+      "name": "🍁飘花播播(XB)",
+      "key": "飘花播播",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/飘花播播.json"
+    },
+    {
+      "name": "🍀尘落影院(XB)",
+      "key": "尘落影院",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/尘落影院.json"
+    },
+    {
+      "name": "🍁city电影(XB)",
+      "key": "city电影",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/city电影.json"
+    },
+    {
+      "name": "🍀红领巾(XB)",
+      "key": "红领巾",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/红领巾.json"
+    },
+    {
+      "name": "🍁老电影(XB)",
+      "key": "老电影",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/老电影.json"
+    },
+    {
+      "name": "🍀Nike影视网(XB)",
+      "key": "Nike影视网",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/Nike影视网.json"
+    },
+    {
+      "name": "🍁139影视(XB)",
+      "key": "139影视",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/139影视.json"
+    },
+    {
+      "name": "🍀虚拟影院(XB)",
+      "key": "虚拟影院",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/虚拟影院.json"
+    },
+    {
+      "name": "🍁Auete影视(XB)",
+      "key": "Auete影视",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/Auete影视.json"
+    },
+    {
+      "name": "🍀漫岛动漫(XB)",
+      "key": "漫岛动漫",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/漫岛动漫.json"
+    },
+    {
+      "name": "🍁hdmoli(XB)",
+      "key": "hdmoli",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/hdmoli.json"
+    },
+    {
+      "name": "🍀乌龟影院(XB)",
+      "key": "乌龟影院",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/乌龟影院.json"
+    },
+    {
+      "name": "🍁克拉TV(XB)",
+      "key": "克拉TV",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/克拉TV.json"
+    },
+    {
+      "name": "🍀奈菲影院(XB)",
+      "key": "奈菲影院",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/奈菲影院.json"
+    },
+    {
+      "name": "🍁TVB云播(XB)",
+      "key": "TVB云播",
+      "type": 3,
+      "api": "csp_XBiubiu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://wisteria.cf/raw.githubusercontent.com/asters1/source/master/tvbox/json/TVB云播.json"
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Json并发",
+      "type": 2,
+      "url": "Parallel"
+    },
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
+    {
+      "name": "okjx",
+      "type": 0,
+      "url": "https://okjx.cc/?url="
+    }
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    },
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    "mimg.0c1q0l.cn",
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "mc.usihnbcq.cn",
+    "mg.g1mm3d.cn",
+    "mscs.svaeuzh.cn",
+    "cnzz.hhttm.top",
+    "tp.vinuxhome.com",
+    "cnzz.mmstat.com",
+    "www.baihuillq.com",
+    "s23.cnzz.com",
+    "z3.cnzz.com",
+    "c.cnzz.com",
+    "stj.v1vo.top",
+    "z12.cnzz.com",
+    "img.mosflower.cn",
+    "tips.gamevvip.com",
+    "ehwe.yhdtns.com",
+    "xdn.cqqc3.com",
+    "www.jixunkyy.cn",
+    "sp.chemacid.cn",
+    "hm.baidu.com",
+    "s9.cnzz.com",
+    "z6.cnzz.com",
+    "um.cavuc.com",
+    "mav.mavuz.com",
+    "wofwk.aoidf3.com",
+    "z5.cnzz.com",
+    "xc.hubeijieshikj.cn",
+    "tj.tianwenhu.com",
+    "xg.gars57.cn",
+    "k.jinxiuzhilv.com",
+    "cdn.bootcss.com",
+    "ppl.xunzhuo123.com",
+    "xomk.jiangjunmh.top",
+    "img.xunzhuo123.com",
+    "z1.cnzz.com",
+    "s13.cnzz.com",
+    "xg.huataisangao.cn",
+    "z7.cnzz.com",
+    "xg.huataisangao.cn",
+    "z2.cnzz.com",
+    "s96.cnzz.com",
+    "q11.cnzz.com",
+    "thy.dacedsfa.cn",
+    "xg.whsbpw.cn",
+    "s19.cnzz.com",
+    "z8.cnzz.com",
+    "s4.cnzz.com",
+    "f5w.as12df.top",
+    "ae01.alicdn.com",
+    "www.92424.cn",
+    "k.wudejia.com",
+    "vivovip.mmszxc.top",
+    "qiu.xixiqiu.com",
+    "cdnjs.hnfenxun.com",
+    "cms.qdwght.com"
+  ]
+}
