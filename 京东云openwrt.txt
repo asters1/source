@@ -1,16 +1,19 @@
 账户：root
 密码：root
+将source的openwrt下载下来即可
+
+
 还能安装到内置64g卡里面
 软件包安装到内置64g教程
 1.安装两个软件包
 刷好固件先去软件包里面安装这两个软件包
 fdisk
-e4crypt
 2.使用SSH格式化内置卡，输入以下命令
 fdisk -l
 mkfs.ext4 /dev/mmcblk0
 
 如果出现以下内容请在挂载点卸载内置卡
+---卸载是在网页上卸载
 【/dev/mmcblk0 is apparently in use by the system; will not make a filesystem】
 然后回到SSH接着格式化
 mkfs.ext4 /dev/mmcblk0
